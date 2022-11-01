@@ -1,14 +1,19 @@
 {
   "name": "firebase-id-token-generator",
+  "description": "Generate Firebase ID Tokens using CLI without the cumbersome of using the client side to generate tokens.",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Khalwah Alshah",
+  "author": "Khawlah ALshah <khawlahelshah@gmail.com> (http://khawlah.ly)",
   "license": "ISC",
+  "keywords": ["firebase", "nodejs", "cli", "generate", "token", "id token", "custom token"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KhawlahElshah/firebase-id-token-generator"
+  },
   "bin": {
     "firebase-generate-id-token": "index.js"
   },
