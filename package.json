@@ -1,0 +1,22 @@
+{
+  "name": "firebase-id-token-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khalwah Alshah",
+  "license": "ISC",
+  "bin": {
+    "firebase-generate-id-token": "index.js"
+  },
+  "dependencies": {
+    "boxen": "4.0",
+    "chalk": "2.4",
+    "firebase-admin": "^11.2.0",
+    "inquirer": "^9.1.4",
+    "node-fetch": "^3.2.10"
+  }
+}
